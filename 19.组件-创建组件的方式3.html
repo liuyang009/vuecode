@@ -13,7 +13,13 @@
 <body>
     <div id="app">
         <mycom3></mycom3>
+        <login></login>
     </div>
+
+
+    <template id="temp2">
+        <h1>这是私有的 login组件</h1>
+    </template>
 
     <template id="tmpl">
         <div>
@@ -23,12 +29,31 @@
     </template>
     <!-- 在被控制的 #app 外面，使用 template元素 定义组件的HTML模版结构-->
     <script>
-       Vue.component('mycom3', {
-           template: '#tmpl'
-       });
+        Vue.component('mycom3', {
+            template: '#tmpl'
+        });
 
         var vm = new Vue({
-            el: '#app'
+            el: '#app',
+            data: {},
+            methods: {},
+            filters: {},
+            directives: {},
+            components: { // 定义实例内部私有组件
+                login: {
+                    template: '#temp2'
+                }
+            },
+
+            beforeCreate() {},
+            created() {},
+            beforeMount() {},
+            mounted() {},
+            beforeUpdate() {},
+            updated() {},
+            beforeDestory() {},
+            destoryed() {}
+
         });
     </script>
 </body>
