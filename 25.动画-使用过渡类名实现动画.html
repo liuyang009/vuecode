@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--1 导入Vue包-->
+    <script src="https://unpkg.com/vue"></script>
+    <style>
+        /* v-enter  【这是一个时间点】 是进入之前，元素的起始状态，此时还没有开始进入*/
+        /* v-leave-to 【这是一个时间点】 是动画离开之后，离开的终止状态，此时，元素动画已经结束了*/
+        .v-enter,
+        .v-leave-to{
+            opacity: 0;
+            transform: translateX(180px);
+        }
+        /* v-enter-active【入场动画的时间段】 */
+        /* v-leave-active【入场动画的时间段】 */
+        .v-enter-active,
+        .v-leave-active{
+            transition: all 0.8s ease;
+        }
+
+
+
+        .my-enter,
+        .my-leave-to{
+            opacity: 0;
+            transform: translateY(180px);
+        }
+        .my-enter-active,
+        .my-leave-active{
+            transition: all 0.8s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <!-- 需求：点击按钮，让h3显示，再点击，让H3消失-->
+        <input type="button" value="点击我" @click="flag=!flag">
+        <!--1 使用 transition元素，把需要被动画控制的元素，包裹起来-->
+        <!--transition 是vue官方提供的-->
+        <!--2 自定义2组样式，来控制 transition 内部的元素实现动画 -->
+        <transition>
+            <h3 v-if="flag">这是一个h3</h3>
+        </transition>
+        <hr>
+        <input type="button" value="点击我2" @click="flag2=!flag2">
+        <transition name="my">
+            <h1 v-if="flag2">这是一个h1</h1>
+        </transition>
+    </div>
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                flag: false,
+                flag2: false
+            }
+        });
+    </script>
+</body>
+
+</html>
