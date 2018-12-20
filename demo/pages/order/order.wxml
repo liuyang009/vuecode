@@ -1,0 +1,13 @@
+<view>
+    <view class="order-box">
+        <view wx:for="{{items}}" wx:key="item.name" wx:for-index="index" class="{{nowIndex == index?'active-tag':''}}" data-id="{{index}}" bindtap="tagChoose">
+            {{item.name}}
+        </view>
+    </view>
+
+    <view class='order-content'>
+      <image src='/images/gouwuche.png'></image>
+      <view class="order-font">暂无订单历史记录</view>
+      <view class="order-btn">发布需求找师傅</view>
+    </view>
+</view>

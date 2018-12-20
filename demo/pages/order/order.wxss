@@ -1,0 +1,46 @@
+/* pages/order/order.wxss */
+
+.order-box view {
+  width: 200rpx;
+  height: 80rpx;
+  font-size: 26rpx;
+  text-align: center;
+  line-height: 80rpx;
+}
+
+.order-box {
+  display: flex;
+  justify-content: space-between;
+  margin: 20rpx 40rpx;
+}
+
+.active-tag {
+  color: #199cfe;
+  border-bottom: 4rpx solid #199cfe;
+}
+.order-content image{
+    width: 200rpx;
+    height: 200rpx;
+}
+.order-content{
+   height: 800rpx;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center
+}
+.order-font{
+    font-size: 24rpx;
+    color: #666;
+    margin: 40rpx 0
+}
+.order-btn{
+    width: 250rpx;
+    height: 60rpx;
+    color: white;
+    border-radius: 10rpx;
+    background-color: #199cfe;
+    font-size: 28rpx;
+    text-align: center;
+    line-height: 60rpx;
+}
