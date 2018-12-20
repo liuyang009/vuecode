@@ -1,0 +1,294 @@
+<!--pages/index2/index2.wxml-->
+<view>
+  <swiper indicator-dots="false" autoplay="true" interval="3000" duration="1000">
+    <block>
+      <swiper-item>
+        <image src="https://image.uisdc.com/wp-content/uploads/2016/06/ttt201606013.jpg" class="slide-image" />
+      </swiper-item>
+      <swiper-item>
+        <image src="https://image.uisdc.com/wp-content/uploads/2016/06/ttt201606013.jpg" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='ele'>
+    <view class='ele-service' catchtap='toChild' data-title="上门安装">
+      <view></view>
+      <text>上门安装</text>
+    </view>
+    <view class='ele-service'>
+      <view></view>
+      <text>上门安装</text>
+    </view>
+    <view class='ele-service'>
+      <view></view>
+      <text>上门安装</text>
+    </view>
+    <view class='ele-service'>
+      <view></view>
+      <text>上门安装</text>
+    </view>
+    <view class='ele-service'>
+      <view></view>
+      <text>上门安装</text>
+    </view>
+  </view>
+
+
+  <view class='ele'>
+    <view class='ele-service'>
+      <view style='background-color: red'></view>
+      <text>上门维修</text>
+    </view>
+    <view class='ele-service'>
+      <view></view>
+      <text>上门维修</text>
+    </view>
+    <view class='ele-service'>
+      <view></view>
+      <text>上门维修</text>
+    </view>
+    <view class='ele-service'>
+      <view></view>
+      <text>上门维修</text>
+    </view>
+    <view class='ele-service'>
+      <view></view>
+      <text>上门维修</text>
+    </view>
+  </view>
+
+  <view class='content'>
+    <view class='content-view'>
+      <text class='content-leftText'>上门安装</text>
+      <text class='content-rightText'>查看全部 ></text>
+    </view>
+    <view class='content-type'>
+
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx'></view>
+      </view>
+
+    </view>
+
+
+    <view class='content-type'>
+
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx'></view>
+      </view>
+
+    </view>
+
+    <view class='content-type'>
+
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx;margin-bottom:30rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx;margin-bottom:30rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx;margin-bottom:30rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx;margin-bottom:30rpx'></view>
+      </view>
+
+    </view>
+    <view class='content-view'>
+      <text class='content-leftText'>上门维修</text>
+      <text class='content-rightText'>查看全部 ></text>
+    </view>
+
+    <view class='content-type'>
+
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx'></view>
+      </view>
+
+    </view>
+
+    <view class='content-type'>
+
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx'></view>
+      </view>
+
+    </view>
+
+    <view class='content-type'>
+
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx;margin-bottom:30rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx;margin-bottom:30rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx;margin-bottom:30rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx;margin-bottom:30rpx'></view>
+      </view>
+
+    </view>
+
+    <view class='content-view'>
+      <text class='content-leftText'>清洁保养</text>
+      <text class='content-rightText'>查看全部 ></text>
+    </view>
+
+    <view class='content-type'>
+
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx'></view>
+      </view>
+
+    </view>
+    <view class='content-type'>
+
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx;margin-bottom:30rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx;margin-bottom:30rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx;margin-bottom:30rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx;margin-bottom:30rpx'></view>
+      </view>
+
+    </view>
+
+     <view class='content-view'>
+      <text class='content-leftText'>搬家运货</text>
+      <text class='content-rightText'>查看全部 ></text>
+    </view>
+     <view class='content-type'>
+
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx;margin-bottom:30rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx;margin-bottom:30rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx;margin-bottom:30rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx;margin-bottom:30rpx'></view>
+      </view>
+
+    </view>
+
+  <view class='content-view'>
+      <text class='content-leftText'>开锁换锁</text>
+      <text class='content-rightText'  catchtap="toDetail">查看全部></text>
+    </view>
+     <view class='content-type'>
+
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx;margin-bottom:30rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx;margin-bottom:30rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx;margin-bottom:30rpx'></view>
+      </view>
+      <view class='ele-service'>
+        <text style='font-weight:100'>上门维修</text>
+        <view style='margin-top:10rpx;margin-bottom:30rpx'></view>
+      </view>
+
+    </view>
+
+  </view>
+
+</view>

@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index2/index2",
+    "pages/index/index",
+    "pages/index4/index4",
+    "pages/index3/index3",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#666",
+    "navigationBarTitleText": "超人师傅",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#87CEEB",
+    "list": [
+      {
+        "pagePath": "pages/index2/index2",
+        "text": "找师傅",
+        "iconPath": "images/搜索.png",
+        "selectedIconPath": "images/selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "订单"
+      }
+    ]
+  },
+  "debug": true
+}

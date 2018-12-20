@@ -1,0 +1,51 @@
+/* pages/index2/index2.wxss */
+.slide-image{
+  height: 300rpx;
+}
+.ele-service view{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  background-color: green;
+  margin:0px auto;
+}
+
+.ele-service text{
+  font-size: 24rpx;
+  font-weight: bold;
+}
+.ele-service{
+    text-align: center;
+    width: 100rpx;
+    margin:0px auto;
+}
+.ele{
+  display: flex;
+  justify-content: space-between;
+  margin: 20rpx
+}
+
+.content{
+  background-color: #D3D3D3;
+  padding-bottom: 20rpx
+}
+
+.content-rightText{
+  font-size: 26rpx;
+  margin-top: 15rpx
+}
+.content-type{
+  background-color: white;
+  margin: 0 40rpx;
+  display: flex;
+  justify-content: space-between;
+
+}
+.content-view{
+  margin-top: 40rpx;
+  padding-top: 50rpx;
+  padding-bottom: 30rpx;
+  display: flex;
+  justify-content: space-between;
+  margin: 0rpx 40rpx;
+}

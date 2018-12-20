@@ -1,0 +1,19 @@
+<view>
+  <view class='header'>
+    您要安装组装的是哪类床？ (单选)
+  </view>
+  <view>
+    <radio-group class="radio-group" bindchange="radioChange">
+      <view class='radio-item' wx:for="{{items}}" wx:key="{{item.value}}" >
+        <text>{{item.name}}</text>
+        <radio value='{{item.value}}' checked="{{item.checked}}">
+        </radio>
+      </view>
+    </radio-group>
+  </view>
+
+  <view class='footer'>
+    <view>上一步</view>
+    <view>下一步</view>
+  </view>
+</view>

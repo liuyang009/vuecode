@@ -1,0 +1,19 @@
+.content-title{
+  margin: 40rpx 20rpx;
+}
+.item{
+  width: 200rpx;
+  height: 60rpx;
+  font-size: 28rpx;
+  background-color: #D3D3D3;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 60rpx;
+  margin-bottom: 20rpx;
+}
+.item-parent{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 20rpx;
+}
