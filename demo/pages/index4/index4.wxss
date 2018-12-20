@@ -27,7 +27,7 @@
 }
 
  .footer view{
-  width: 50%;
+  width: 100%;
   height: 80rpx;
   border-right: 2rpx solid #D3D3D3;
   text-align: center;

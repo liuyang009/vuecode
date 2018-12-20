@@ -13,7 +13,7 @@
   </view>
 
   <view class='footer'>
-    <view>上一步</view>
+    <!-- <view>上一步</view> -->
     <view>下一步</view>
   </view>
 </view>
