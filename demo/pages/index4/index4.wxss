@@ -33,4 +33,10 @@
   text-align: center;
   line-height: 80rpx;
   font-size: 30rpx;
+  font-weight: bold;
+  color: green;
 } 
+.footer-line{
+  width: 20%;
+  border-top: 6rpx solid green;
+}

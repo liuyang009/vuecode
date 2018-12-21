@@ -1,6 +1,6 @@
 <view>
   <view class='header'>
-    您要安装组装的是哪类床？ (单选)
+    您要安装组装的床的材质是？ (单选)
   </view>
   <view>
     <radio-group class="radio-group" bindchange="radioChange">
@@ -13,6 +13,7 @@
   </view>
    <view class="footer footer-line"></view>
   <view class='footer'>
-    <view bindtap='next'>下一步</view>
+      <view bindtap="goHistory" style="color: black">上一步</view>
+    <view>下一步</view>
   </view>
 </view>

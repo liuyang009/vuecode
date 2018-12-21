@@ -1,16 +1,18 @@
 {
   "pages": [
-    "pages/order/order",
+    "pages/index6/index6",
     "pages/index2/index2",
-    "pages/index/index",
     "pages/index4/index4",
+    "pages/index5/index5",
+    "pages/order/order",
+    "pages/index/index",
     "pages/index3/index3",
     "pages/logs/logs",
     "pages/my/my"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#666",
+    "navigationBarBackgroundColor": "#66CDAA",
     "navigationBarTitleText": "超人师傅",
     "navigationBarTextStyle": "white"
   },
