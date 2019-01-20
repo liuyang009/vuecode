@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="https://unpkg.com/vue"></script>
+    <!--安装 vue-router 路由模块-->
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+      }
+      .header {
+        background-color: red;
+        height: 80px;
+      }
+      .container {
+        display: flex;
+        height: 830px;
+      }
+      .left {
+        background-color: aqua;
+        flex: 2;
+      }
+      .main {
+        background-color: blueviolet;
+        flex: 8;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <router-view></router-view>
+      <div class="container">
+        <router-view name="left"></router-view>
+        <router-view name="main"></router-view>
+      </div>
+    </div>
+    <script>
+      var header = {
+        template: '<h1 class="header">Header头部区域</h1>'
+      }
+      var leftBox = {
+        template: '<h1 class="left">Left区域</h1>'
+      }
+      var mainBox = {
+        template: '<h1 class="main">Main区域</h1>'
+      }
+      //创建路由对象
+      var router = new VueRouter({
+        routes: [
+          // { path: '/', component: header },
+          // { path: '/leftBox', component: leftBox },
+          // { path: '/mainBox', component: mainBox }
+          {
+            path: '/',
+            components: {
+              default: header,
+              left: leftBox,
+              main: mainBox
+            }
+          }
+        ]
+      })
+      var vm = new Vue({
+        el: '#app',
+        data: {},
+        methods: {},
+        router
+      })
+    </script>
+  </body>
+</html>
